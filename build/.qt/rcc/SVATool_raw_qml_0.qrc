@@ -1,8 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/SVA/">
-    <file alias="views/Main.qml">/home/auer21/development/SVATool/views/Main.qml</file>
-    <file alias="views/LoginPage.qml">/home/auer21/development/SVATool/views/LoginPage.qml</file>
-    <file alias="views/DashboardPage.qml">/home/auer21/development/SVATool/views/DashboardPage.qml</file>
-  </qresource>
-</RCC>
-

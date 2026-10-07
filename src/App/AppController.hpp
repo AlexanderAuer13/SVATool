@@ -1,6 +1,7 @@
 #pragma once
 
 #include "../Services/Login/LoginService.hpp"
+#include "../Services/SSH/SSHService.hpp"
 #include <QObject>
 #include <QtQml/qqmlregistration.h>
 #include <memory>
@@ -25,6 +26,8 @@ class AppController : public QObject
 
 private:
     bool m_isLoggedIn = false;
+    std::shared_ptr<SSHService> m_sshService = std::make_shared<SSHService>();
+
     std::unique_ptr<LoginService> m_loginService = std::make_unique<LoginService>();
 
 public:

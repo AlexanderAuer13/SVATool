@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/SVA">/home/auer21/development/SVATool/build/SVA</file>
-
-  </qresource>
-</RCC>

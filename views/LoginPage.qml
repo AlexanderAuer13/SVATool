@@ -6,6 +6,18 @@ import SVA
 
 Page {
 
+    Connections {
+        target: AppController
+
+        function onLoggedInChanged() {
+            if (AppController.loggedIn) {
+                stackView.replace(dashboardPage)
+            } else {
+                loginFailedPopup.open()
+            }
+        }
+    }
+
     background: Rectangle {
     color: Material.theme === Material.Dark
     ? "#121212"
@@ -101,12 +113,48 @@ Page {
 
                 onClicked: {
                     console.log("Login initiated")
-                    controller.login( // Ruft login methode vom AppController auf
+                    AppController.login( // Ruft login methode vom AppController auf
                     ipAddressField.text,
                     usernameField.text,
                     passwordField.text)
                 }
             }
+
+            Popup {
+                id: loginFailedPopup
+                anchors.centerIn: parent
+
+                width: 320
+                height: 160
+
+                modal: true
+                focus: true
+                padding: 20
+
+                ColumnLayout {
+                    anchors.fill: parent
+                    spacing: 12
+
+                    Label {
+                        text: "Login failed"
+                        font.pixelSize: 20
+                        font.bold: true
+                        color: Material.Red
+                    }
+
+                    Label {
+                        text: "Please check your login data."
+                        Layout.fillWidth: true
+                    }
+
+                    Button {
+                        text: "OK"
+                        Layout.alignment: Qt.AlignRight
+                        onClicked: loginFailedPopup.close()
+                    }
+                }
+            }
+            
         }
     }
 }

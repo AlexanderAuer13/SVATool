@@ -1,8 +1,0 @@
-module SVA
-typeinfo SVATool.qmltypes
-prefer :/qt/qml/SVA/
-Main 254.0 views/Main.qml
-LoginPage 254.0 views/LoginPage.qml
-DashboardPage 254.0 views/DashboardPage.qml
-depends QtQuick
-

@@ -1,0 +1,14 @@
+-rootPath
+/home/auer21/development/SVATool
+-cmake-output
+-output-file
+/home/auer21/development/SVATool/build/.qt/qml_imports/SVATool_build.cmake
+-importPath
+/home/auer21/development/SVATool/build
+-importPath
+/home/auer21/development/SVATool/build/SVA
+-importPath
+/usr/lib/x86_64-linux-gnu/qt6/qml
+-qrcFiles
+/home/auer21/development/SVATool/build/.qt/rcc/qmake_SVA.qrc
+/home/auer21/development/SVATool/build/.qt/rcc/SVATool_raw_qml_0.qrc

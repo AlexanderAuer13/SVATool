@@ -1,0 +1,7 @@
+--resource
+/home/auer21/development/SVATool/build/.qt/rcc/qmake_SVA.qrc
+--resource
+/home/auer21/development/SVATool/build/.qt/rcc/SVATool_raw_qml_0.qrc
+/qt/qml/SVA/views/Main.qml
+/qt/qml/SVA/views/LoginPage.qml
+/qt/qml/SVA/views/Dashboard.qml

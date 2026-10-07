@@ -3,6 +3,6 @@ typeinfo SVATool.qmltypes
 prefer :/qt/qml/SVA/
 Main 254.0 views/Main.qml
 LoginPage 254.0 views/LoginPage.qml
-Dashboard 254.0 views/Dashboard.qml
+DashboardPage 254.0 views/DashboardPage.qml
 depends QtQuick
 

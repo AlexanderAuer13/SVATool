@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 26)
+set(qml_import_scanner_imports_count 27)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;/usr/lib/x86_64-linux-gnu/qt6/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml;PATH;/usr/lib/x86_64-linux-gnu/qt6/qml/QtQml;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "NAME;QML;PATH;/usr/lib/x86_64-linux-gnu/qt6/qml/QML;PREFER;:/qt-project.org/imports/QML/;RELATIVEPATH;QML;TYPE;module;")
@@ -25,4 +25,5 @@ set(qml_import_scanner_import_22 "CLASSNAME;QtQuickControls2BasicStyleImplPlugin
 set(qml_import_scanner_import_23 "CLASSNAME;QmlShapesPlugin;LINKTARGET;Qt6::qmlshapesplugin;NAME;QtQuick.Shapes;PATH;/usr/lib/x86_64-linux-gnu/qt6/qml/QtQuick/Shapes;PLUGIN;qmlshapesplugin;PREFER;:/qt-project.org/imports/QtQuick/Shapes/;RELATIVEPATH;QtQuick/Shapes;TYPE;module;")
 set(qml_import_scanner_import_24 "CLASSNAME;QtQmlLabsModelsPlugin;LINKTARGET;Qt6::labsmodelsplugin;NAME;Qt.labs.qmlmodels;PATH;/usr/lib/x86_64-linux-gnu/qt6/qml/Qt/labs/qmlmodels;PLUGIN;labsmodelsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/Qt/labs/qmlmodels/;RELATIVEPATH;Qt/labs/qmlmodels;TYPE;module;")
 set(qml_import_scanner_import_25 "CLASSNAME;QtQuickLayoutsPlugin;LINKTARGET;Qt6::qquicklayoutsplugin;NAME;QtQuick.Layouts;PATH;/usr/lib/x86_64-linux-gnu/qt6/qml/QtQuick/Layouts;PLUGIN;qquicklayoutsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Layouts/;RELATIVEPATH;QtQuick/Layouts;TYPE;module;")
+set(qml_import_scanner_import_26 "COMPONENTS;/home/auer21/development/SVATool/build/SVA/views/DashboardPage.qml;/home/auer21/development/SVATool/build/SVA/views/LoginPage.qml;/home/auer21/development/SVATool/build/SVA/views/Main.qml;NAME;SVA;PATH;/home/auer21/development/SVATool/build/SVA;PREFER;:/qt/qml/SVA/;RELATIVEPATH;SVA;TYPE;module;")
 

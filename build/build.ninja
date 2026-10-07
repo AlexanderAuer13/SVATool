@@ -47,14 +47,14 @@ cmake_ninja_workdir = /home/auer21/development/SVATool/build/
 #############################################
 # Order-only phony target for SVATool
 
-build cmake_object_order_depends_target_SVATool: phony || .qt/rcc/qrc_SVATool_raw_qml_0.cpp .qt/rcc/qrc_qmake_SVA.cpp .rcc/qmlcache/SVATool_qmlcache_loader.cpp .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Main_qml.cpp .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats SVA/SVATool.qmltypes SVATool_autogen SVATool_autogen/mocs_compilation.cpp SVATool_autogen/timestamp SVATool_autogen_timestamp_deps SVATool_copy_qml SVATool_copy_res SVATool_qmlimportscan generate_qmlls_build_ini_file meta_types/SVATool_json_file_list.txt meta_types/SVATool_json_file_list.txt.timestamp meta_types/qt6svatool_metatypes.json meta_types/qt6svatool_metatypes.json.gen svatool_qmltyperegistrations.cpp
+build cmake_object_order_depends_target_SVATool: phony || .qt/rcc/qrc_SVATool_raw_qml_0.cpp .qt/rcc/qrc_qmake_SVA.cpp .rcc/qmlcache/SVATool_qmlcache_loader.cpp .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Main_qml.cpp .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats SVA/SVATool.qmltypes SVATool_autogen SVATool_autogen/mocs_compilation.cpp SVATool_autogen/timestamp SVATool_autogen_timestamp_deps SVATool_copy_qml SVATool_copy_res SVATool_qmlimportscan generate_qmlls_build_ini_file meta_types/SVATool_json_file_list.txt meta_types/SVATool_json_file_list.txt.timestamp meta_types/qt6svatool_metatypes.json meta_types/qt6svatool_metatypes.json.gen svatool_qmltyperegistrations.cpp
 
 build CMakeFiles/SVATool.dir/SVATool_autogen/mocs_compilation.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/build/SVATool_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_SVATool
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/SVATool_autogen/mocs_compilation.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/SVATool_autogen
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
@@ -64,19 +64,19 @@ build CMakeFiles/SVATool.dir/main.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
 
-build CMakeFiles/SVATool.dir/src/App/AppController.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/src/App/AppController.cpp || cmake_object_order_depends_target_SVATool
+build CMakeFiles/SVATool.dir/src/Services/Login/LoginService.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/src/Services/Login/LoginService.cpp || cmake_object_order_depends_target_SVATool
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/SVATool.dir/src/App/AppController.cpp.o.d
+  DEP_FILE = CMakeFiles/SVATool.dir/src/Services/Login/LoginService.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
-  OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/src/App
+  OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/src/Services/Login
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
 
 build CMakeFiles/SVATool.dir/svatool_qmltyperegistrations.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/build/svatool_qmltyperegistrations.cpp || cmake_object_order_depends_target_SVATool
@@ -84,7 +84,7 @@ build CMakeFiles/SVATool.dir/svatool_qmltyperegistrations.cpp.o: CXX_COMPILER__S
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/svatool_qmltyperegistrations.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
@@ -94,9 +94,19 @@ build CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_qmake_SVA.cpp.o: CXX_COMPILER__SV
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_qmake_SVA.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/build/.qt/rcc
+  TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
+
+build CMakeFiles/SVATool.dir/src/App/AppController.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/src/App/AppController.cpp || cmake_object_order_depends_target_SVATool
+  CONFIG = Debug
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
+  DEP_FILE = CMakeFiles/SVATool.dir/src/App/AppController.cpp.o.d
+  FLAGS = -g -std=gnu++17
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  OBJECT_DIR = CMakeFiles/SVATool.dir
+  OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/src/App
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
 
 build CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_qmlcache_loader.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_qmlcache_loader.cpp || cmake_object_order_depends_target_SVATool
@@ -104,7 +114,7 @@ build CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_qmlcache_loader.cpp.o: 
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_qmlcache_loader.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/build/.rcc/qmlcache
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
@@ -114,7 +124,7 @@ build CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Main_qml.cpp.o: C
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Main_qml.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
@@ -124,17 +134,17 @@ build CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/LoginPage_qml.cpp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
 
-build CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp || cmake_object_order_depends_target_SVATool
+build CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.o: CXX_COMPILER__SVATool_unscanned_Debug /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp || cmake_object_order_depends_target_SVATool
   CONFIG = Debug
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.o.d
+  DEP_FILE = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
@@ -144,7 +154,7 @@ build CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_SVATool_raw_qml_0.cpp.o: CXX_COMP
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLINTEGRATION_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_SVATool_raw_qml_0.cpp.o.d
   FLAGS = -g -std=gnu++17
-  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
+  INCLUDES = -I/home/auer21/development/SVATool/build/SVATool_autogen/include -I/home/auer21/development/SVATool -I/home/auer21/development/SVATool/src/App -isystem /usr/include/x86_64-linux-gnu/qt6/QtQml -isystem /usr/include/x86_64-linux-gnu/qt6 -isystem /usr/include/x86_64-linux-gnu/qt6/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt6/mkspecs/linux-g++ -isystem /usr/include/x86_64-linux-gnu/qt6/QtQmlIntegration -isystem /usr/include/x86_64-linux-gnu/qt6/QtNetwork -isystem /usr/include/x86_64-linux-gnu/qt6/QtQuick -isystem /usr/include/x86_64-linux-gnu/qt6/QtGui -isystem /usr/include/x86_64-linux-gnu/qt6/QtOpenGL
   OBJECT_DIR = CMakeFiles/SVATool.dir
   OBJECT_FILE_DIR = CMakeFiles/SVATool.dir/build/.qt/rcc
   TARGET_SUPPORT_DIR = CMakeFiles/SVATool.dir
@@ -157,7 +167,7 @@ build CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_SVATool_raw_qml_0.cpp.o: CXX_COMP
 #############################################
 # Link the executable SVATool
 
-build SVATool: CXX_EXECUTABLE_LINKER__SVATool_Debug CMakeFiles/SVATool.dir/SVATool_autogen/mocs_compilation.cpp.o CMakeFiles/SVATool.dir/main.cpp.o CMakeFiles/SVATool.dir/src/App/AppController.cpp.o CMakeFiles/SVATool.dir/svatool_qmltyperegistrations.cpp.o CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_qmake_SVA.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_qmlcache_loader.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Main_qml.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.o CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_SVATool_raw_qml_0.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.10.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.10.2 || SVATool_autogen SVATool_autogen_timestamp_deps SVATool_copy_qml SVATool_copy_res SVATool_qmlimportscan generate_qmlls_build_ini_file
+build SVATool: CXX_EXECUTABLE_LINKER__SVATool_Debug CMakeFiles/SVATool.dir/SVATool_autogen/mocs_compilation.cpp.o CMakeFiles/SVATool.dir/main.cpp.o CMakeFiles/SVATool.dir/src/Services/Login/LoginService.cpp.o CMakeFiles/SVATool.dir/svatool_qmltyperegistrations.cpp.o CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_qmake_SVA.cpp.o CMakeFiles/SVATool.dir/src/App/AppController.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_qmlcache_loader.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/Main_qml.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.o CMakeFiles/SVATool.dir/build/.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.o CMakeFiles/SVATool.dir/build/.qt/rcc/qrc_SVATool_raw_qml_0.cpp.o | /usr/lib/x86_64-linux-gnu/libQt6Quick.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6OpenGL.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6Gui.so.6.10.2 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libQt6Qml.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6Network.so.6.10.2 /usr/lib/x86_64-linux-gnu/libQt6Core.so.6.10.2 || SVATool_autogen SVATool_autogen_timestamp_deps SVATool_copy_qml SVATool_copy_res SVATool_qmlimportscan generate_qmlls_build_ini_file
   CONFIG = Debug
   DEP_FILE = CMakeFiles/SVATool.dir/link.d
   FLAGS = -g
@@ -240,13 +250,13 @@ build generate_qmlls_build_ini_file: phony CMakeFiles/generate_qmlls_build_ini_f
 #############################################
 # Utility command for module_SVATool_aotstats_target
 
-build module_SVATool_aotstats_target: phony CMakeFiles/module_SVATool_aotstats_target .rcc/qmlcache/module_SVATool.aotstats .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Main_qml.cpp .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats svatool_qmltyperegistrations.cpp SVA/SVATool.qmltypes SVATool_qmltyperegistration
+build module_SVATool_aotstats_target: phony CMakeFiles/module_SVATool_aotstats_target .rcc/qmlcache/module_SVATool.aotstats .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Main_qml.cpp .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats svatool_qmltyperegistrations.cpp SVA/SVATool.qmltypes SVATool_qmltyperegistration
 
 
 #############################################
 # Utility command for all_aotstats
 
-build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_SVATool.aotstats .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Main_qml.cpp .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats svatool_qmltyperegistrations.cpp SVA/SVATool.qmltypes module_SVATool_aotstats_target
+build all_aotstats: phony CMakeFiles/all_aotstats .rcc/qmlcache/all_aotstats.aotstats .rcc/qmlcache/all_aotstats.txt .rcc/qmlcache/module_SVATool.aotstats .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Main_qml.cpp .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats svatool_qmltyperegistrations.cpp SVA/SVATool.qmltypes module_SVATool_aotstats_target
 
 
 #############################################
@@ -345,18 +355,18 @@ build .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp .rcc/qmlcache/SVATool_views/
 
 
 #############################################
-# Custom command for .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp
+# Custom command for .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp
 
-build .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats: CUSTOM_COMMAND /usr/lib/qt6/libexec/qmlcachegen /home/auer21/development/SVATool/views/Dashboard.qml .qt/rcc/qmake_SVA.qrc .qt/rcc/SVATool_raw_qml_0.qrc SVA/SVATool.qmltypes SVA/qmldir
-  COMMAND = cd /home/auer21/development/SVATool/build && /usr/bin/cmake -E make_directory /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_views && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/SVA/views/Dashboard.qml -I /home/auer21/development/SVATool/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/auer21/development/SVATool/build/SVA/qmldir --resource /home/auer21/development/SVATool/build/.qt/rcc/qmake_SVA.qrc --resource /home/auer21/development/SVATool/build/.qt/rcc/SVATool_raw_qml_0.qrc --dump-aot-stats "--module-id=SVA(SVATool)" -o /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_views/Dashboard_qml.cpp /home/auer21/development/SVATool/views/Dashboard.qml
-  DESC = Generating .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp, .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats
+build .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp ${cmake_ninja_workdir}.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats: CUSTOM_COMMAND /usr/lib/qt6/libexec/qmlcachegen /home/auer21/development/SVATool/views/DashboardPage.qml .qt/rcc/qmake_SVA.qrc .qt/rcc/SVATool_raw_qml_0.qrc SVA/SVATool.qmltypes SVA/qmldir
+  COMMAND = cd /home/auer21/development/SVATool/build && /usr/bin/cmake -E make_directory /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_views && /usr/lib/qt6/libexec/qmlcachegen --bare --resource-path /qt/qml/SVA/views/DashboardPage.qml -I /home/auer21/development/SVATool/build -I /usr/lib/x86_64-linux-gnu/qt6/qml -i /home/auer21/development/SVATool/build/SVA/qmldir --resource /home/auer21/development/SVATool/build/.qt/rcc/qmake_SVA.qrc --resource /home/auer21/development/SVATool/build/.qt/rcc/SVATool_raw_qml_0.qrc --dump-aot-stats "--module-id=SVA(SVATool)" -o /home/auer21/development/SVATool/build/.rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp /home/auer21/development/SVATool/views/DashboardPage.qml
+  DESC = Generating .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp, .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats
   restat = 1
 
 
 #############################################
 # Custom command for .qt/rcc/qrc_SVATool_raw_qml_0.cpp
 
-build .qt/rcc/qrc_SVATool_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_SVATool_raw_qml_0.cpp: CUSTOM_COMMAND /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/Dashboard.qml .qt/rcc/SVATool_raw_qml_0.qrc /usr/lib/qt6/libexec/rcc || SVATool_autogen SVATool_autogen_timestamp_deps SVATool_copy_qml SVATool_copy_res SVATool_qmlimportscan generate_qmlls_build_ini_file
+build .qt/rcc/qrc_SVATool_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_SVATool_raw_qml_0.cpp: CUSTOM_COMMAND /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/DashboardPage.qml .qt/rcc/SVATool_raw_qml_0.qrc /usr/lib/qt6/libexec/rcc || SVATool_autogen SVATool_autogen_timestamp_deps SVATool_copy_qml SVATool_copy_res SVATool_qmlimportscan generate_qmlls_build_ini_file
   COMMAND = cd /home/auer21/development/SVATool/build && /usr/lib/qt6/libexec/rcc --output /home/auer21/development/SVATool/build/.qt/rcc/qrc_SVATool_raw_qml_0.cpp --name SVATool_raw_qml_0 /home/auer21/development/SVATool/build/.qt/rcc/SVATool_raw_qml_0.qrc
   DESC = Running rcc for resource SVATool_raw_qml_0
   restat = 1
@@ -391,21 +401,21 @@ build CMakeFiles/SVATool_qmltyperegistration | ${cmake_ninja_workdir}CMakeFiles/
 #############################################
 # Custom command for CMakeFiles/SVATool_qmllint
 
-build CMakeFiles/SVATool_qmllint | ${cmake_ninja_workdir}CMakeFiles/SVATool_qmllint: CUSTOM_COMMAND /usr/lib/qt6/bin/qmllint /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/Dashboard.qml .rcc/qmllint/SVATool.rsp || SVATool_qmltyperegistration all_qmltyperegistrations
+build CMakeFiles/SVATool_qmllint | ${cmake_ninja_workdir}CMakeFiles/SVATool_qmllint: CUSTOM_COMMAND /usr/lib/qt6/bin/qmllint /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/DashboardPage.qml .rcc/qmllint/SVATool.rsp || SVATool_qmltyperegistration all_qmltyperegistrations
   COMMAND = cd /home/auer21/development/SVATool && /usr/lib/qt6/bin/qmllint @/home/auer21/development/SVATool/build/.rcc/qmllint/SVATool.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/SVATool_qmllint_json
 
-build CMakeFiles/SVATool_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/SVATool_qmllint_json: CUSTOM_COMMAND /usr/lib/qt6/bin/qmllint /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/Dashboard.qml .rcc/qmllint/SVATool_json.rsp || SVATool_qmltyperegistration all_qmltyperegistrations
+build CMakeFiles/SVATool_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/SVATool_qmllint_json: CUSTOM_COMMAND /usr/lib/qt6/bin/qmllint /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/DashboardPage.qml .rcc/qmllint/SVATool_json.rsp || SVATool_qmltyperegistration all_qmltyperegistrations
   COMMAND = cd /home/auer21/development/SVATool && /usr/lib/qt6/bin/qmllint @/home/auer21/development/SVATool/build/.rcc/qmllint/SVATool_json.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/SVATool_qmllint_module
 
-build CMakeFiles/SVATool_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/SVATool_qmllint_module: CUSTOM_COMMAND /usr/lib/qt6/bin/qmllint /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/Dashboard.qml .rcc/qmllint/SVATool_module.rsp || SVATool_qmltyperegistration all_qmltyperegistrations
+build CMakeFiles/SVATool_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/SVATool_qmllint_module: CUSTOM_COMMAND /usr/lib/qt6/bin/qmllint /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/DashboardPage.qml .rcc/qmllint/SVATool_module.rsp || SVATool_qmltyperegistration all_qmltyperegistrations
   COMMAND = cd /home/auer21/development/SVATool && /usr/lib/qt6/bin/qmllint @/home/auer21/development/SVATool/build/.rcc/qmllint/SVATool_module.rsp
 
 
@@ -418,7 +428,7 @@ build CMakeFiles/SVATool_copy_qml | ${cmake_ninja_workdir}CMakeFiles/SVATool_cop
 #############################################
 # Custom command for .qt/SVATool_qml.txt
 
-build .qt/SVATool_qml.txt | ${cmake_ninja_workdir}.qt/SVATool_qml.txt: CUSTOM_COMMAND /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/Dashboard.qml
+build .qt/SVATool_qml.txt | ${cmake_ninja_workdir}.qt/SVATool_qml.txt: CUSTOM_COMMAND /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/DashboardPage.qml
   COMMAND = cd /home/auer21/development/SVATool/build && /usr/bin/cmake -DFILES_INFO_PATH=/home/auer21/development/SVATool/build/.qt/SVATool_qml.cmake -P /usr/lib/x86_64-linux-gnu/cmake/Qt6Qml/Qt6QmlCopyFiles.cmake
   DESC = Copying SVATool qml sources into build dir
   restat = 1
@@ -463,7 +473,7 @@ build CMakeFiles/module_SVATool_aotstats_target | ${cmake_ninja_workdir}CMakeFil
 #############################################
 # Custom command for .rcc/qmlcache/module_SVATool.aotstats
 
-build .rcc/qmlcache/module_SVATool.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_SVATool.aotstats: CUSTOM_COMMAND .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/Dashboard_qml.cpp.aotstats .rcc/qmlcache/module_SVATool.aotstatslist || SVATool_qmltyperegistration
+build .rcc/qmlcache/module_SVATool.aotstats | ${cmake_ninja_workdir}.rcc/qmlcache/module_SVATool.aotstats: CUSTOM_COMMAND .rcc/qmlcache/SVATool_views/Main_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/LoginPage_qml.cpp.aotstats .rcc/qmlcache/SVATool_views/DashboardPage_qml.cpp.aotstats .rcc/qmlcache/module_SVATool.aotstatslist || SVATool_qmltyperegistration
   COMMAND = cd /home/auer21/development/SVATool/build && /usr/lib/qt6/libexec/qmlaotstats aggregate /home/auer21/development/SVATool/build/.rcc/qmlcache/module_SVATool.aotstatslist /home/auer21/development/SVATool/build/.rcc/qmlcache/module_SVATool.aotstats
   DESC = Generating .rcc/qmlcache/module_SVATool.aotstats
   restat = 1
@@ -494,7 +504,7 @@ build CMakeFiles/SVATool_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/SVAToo
 #############################################
 # Custom command for .qt/qml_imports/SVATool_build.cmake
 
-build .qt/qml_imports/SVATool_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/SVATool_build.cmake: CUSTOM_COMMAND /usr/lib/qt6/libexec/qmlimportscanner .qt/rcc/qmake_SVA.qrc .qt/rcc/SVATool_raw_qml_0.qrc /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/Dashboard.qml
+build .qt/qml_imports/SVATool_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/SVATool_build.cmake: CUSTOM_COMMAND /usr/lib/qt6/libexec/qmlimportscanner .qt/rcc/qmake_SVA.qrc .qt/rcc/SVATool_raw_qml_0.qrc /home/auer21/development/SVATool/views/Main.qml /home/auer21/development/SVATool/views/LoginPage.qml /home/auer21/development/SVATool/views/DashboardPage.qml
   COMMAND = cd /home/auer21/development/SVATool && /usr/lib/qt6/libexec/qmlimportscanner @/home/auer21/development/SVATool/build/.qt/qml_imports/SVATool_build.rsp
   DESC = Running qmlimportscanner for SVATool
   restat = 1

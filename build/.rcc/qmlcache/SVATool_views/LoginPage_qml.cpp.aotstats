@@ -91,7 +91,7 @@
                             "durationMicroseconds": 0,
                             "functionName": "onClicked",
                             "line": 102,
-                            "message": "method loginRequested cannot be resolved."
+                            "message": "Cannot access value for name controller"
                         }
                     ],
                     "filePath": "/home/auer21/development/SVATool/views/LoginPage.qml"

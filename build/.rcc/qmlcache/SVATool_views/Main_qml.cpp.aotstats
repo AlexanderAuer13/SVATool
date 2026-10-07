@@ -10,7 +10,7 @@
                             "column": 21,
                             "durationMicroseconds": 0,
                             "functionName": "theme",
-                            "line": 15,
+                            "line": 16,
                             "message": ""
                         },
                         {
@@ -18,15 +18,31 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "accent",
-                            "line": 16,
+                            "line": 17,
                             "message": ""
+                        },
+                        {
+                            "codegenResult": 0,
+                            "column": 17,
+                            "durationMicroseconds": 0,
+                            "functionName": "target",
+                            "line": 20,
+                            "message": ""
+                        },
+                        {
+                            "codegenResult": 2,
+                            "column": 9,
+                            "durationMicroseconds": 0,
+                            "functionName": "onLoggedInChanged",
+                            "line": 22,
+                            "message": "Cannot generate efficient code for call to untyped JavaScript function"
                         },
                         {
                             "codegenResult": 0,
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "checked",
-                            "line": 22,
+                            "line": 35,
                             "message": ""
                         },
                         {
@@ -34,7 +50,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "onToggled",
-                            "line": 34,
+                            "line": 47,
                             "message": ""
                         },
                         {
@@ -42,7 +58,7 @@
                             "column": 18,
                             "durationMicroseconds": 0,
                             "functionName": "top",
-                            "line": 25,
+                            "line": 38,
                             "message": ""
                         },
                         {
@@ -50,7 +66,7 @@
                             "column": 20,
                             "durationMicroseconds": 0,
                             "functionName": "right",
-                            "line": 26,
+                            "line": 39,
                             "message": ""
                         },
                         {
@@ -58,7 +74,7 @@
                             "column": 22,
                             "durationMicroseconds": 0,
                             "functionName": "initialItem",
-                            "line": 46,
+                            "line": 59,
                             "message": ""
                         },
                         {
@@ -66,7 +82,7 @@
                             "column": 19,
                             "durationMicroseconds": 0,
                             "functionName": "fill",
-                            "line": 43,
+                            "line": 56,
                             "message": ""
                         }
                     ],

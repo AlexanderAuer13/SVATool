@@ -1,6 +1,7 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Controls.Material
+import SVA // Wir importieren das SVA Modul um AppController zu verwenden
 
 ApplicationWindow {
     id: root
@@ -14,6 +15,18 @@ ApplicationWindow {
     
     Material.theme: darkTheme ? Material.Dark : Material.Light
     Material.accent: Material.Blue
+
+    Connections {
+        target: AppController
+
+        function onLoggedInChanged() {
+            if (AppController.loggedIn) {
+                stackView.replace(dashboardPage)
+            } else {
+                stackView.replace(loginPage)
+            }
+        }
+    }
 
     Switch {
         id: themeSwitch
@@ -53,5 +66,14 @@ ApplicationWindow {
 
         }
     }
+
+    Component {
+        id: dashboardPage
+
+        DashboardPage {
+            
+        }
+    }
+
 
 }

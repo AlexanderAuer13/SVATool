@@ -2,9 +2,9 @@ import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
 import QtQuick.Controls.Material
+import SVA
 
 Page {
-    signal loginRequested()
 
     background: Rectangle {
     color: Material.theme === Material.Dark
@@ -101,7 +101,10 @@ Page {
 
                 onClicked: {
                     console.log("Login initiated")
-                    loginRequested()
+                    controller.login( // Ruft login methode vom AppController auf
+                    ipAddressField.text,
+                    usernameField.text,
+                    passwordField.text)
                 }
             }
         }

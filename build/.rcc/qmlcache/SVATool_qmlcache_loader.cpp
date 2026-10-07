@@ -19,7 +19,7 @@ namespace _qt_qml_SVA_views_LoginPage_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _qt_qml_SVA_views_Dashboard_qml { 
+namespace _qt_qml_SVA_views_DashboardPage_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
     const QQmlPrivate::CachedQmlUnit unit = {
@@ -42,7 +42,7 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SVA/views/Main.qml"), &QmlCacheGeneratedCode::_qt_qml_SVA_views_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SVA/views/LoginPage.qml"), &QmlCacheGeneratedCode::_qt_qml_SVA_views_LoginPage_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SVA/views/Dashboard.qml"), &QmlCacheGeneratedCode::_qt_qml_SVA_views_Dashboard_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/SVA/views/DashboardPage.qml"), &QmlCacheGeneratedCode::_qt_qml_SVA_views_DashboardPage_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;

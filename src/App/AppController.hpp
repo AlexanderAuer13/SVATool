@@ -28,7 +28,7 @@ private:
     bool m_isLoggedIn = false;
     std::shared_ptr<SSHService> m_sshService = std::make_shared<SSHService>();
 
-    std::unique_ptr<LoginService> m_loginService = std::make_unique<LoginService>();
+    std::unique_ptr<LoginService> m_loginService = std::make_unique<LoginService>(m_sshService);
 
 public:
     explicit AppController(QObject *parent = nullptr);
@@ -36,8 +36,10 @@ public:
     bool getLoggedIn() const; // Getter
 
 public slots:
-    void login(QString ipAdress, QString userName, QString password);
+    void login(const QString &ipAdress, const QString &userName, const QString &password);
+    void logout();
 
 signals:
+    void loginFailed();
     void loggedInChanged();
 };

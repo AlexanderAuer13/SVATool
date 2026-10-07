@@ -5,23 +5,18 @@ import QtQuick.Controls.Material
 import SVA
 
 Page {
-
-    Connections {
-        target: AppController
-
-        function onLoggedInChanged() {
-            if (AppController.loggedIn) {
-                stackView.replace(dashboardPage)
-            } else {
-                loginFailedPopup.open()
-            }
-        }
-    }
-
     background: Rectangle {
     color: Material.theme === Material.Dark
     ? "#121212"
     : "#f5f5f5"
+    }
+
+    Connections {
+        target: AppController
+
+        function onLoginFailed() {
+            loginFailedPopup.open()
+        }
     }
 
     // Login Card
@@ -154,7 +149,6 @@ Page {
                     }
                 }
             }
-            
         }
     }
 }

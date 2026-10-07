@@ -16,6 +16,18 @@ ApplicationWindow {
     Material.theme: darkTheme ? Material.Dark : Material.Light
     Material.accent: Material.Blue
 
+    Connections {
+        target: AppController
+
+        function onLoggedInChanged() {
+            if (AppController.loggedIn) {
+                stackView.replace(dashboardPage)
+            } else {
+                stackView.replace(loginPage)
+            }
+        }
+    }
+
     Switch {
         id: themeSwitch
 
